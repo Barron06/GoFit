@@ -1,0 +1,127 @@
+body {
+	background-color: white;
+}
+
+#logo {
+	padding-left: 120px;
+	padding-top: 20px;
+	color: aqua;
+	font-family: 'Pacifico', cursive;
+}
+
+header {
+	height: 100px;
+}
+
+header li {
+	display: inline;
+	padding-right: 40px;
+}
+
+header ul {
+	text-align: center;
+	position: relative;
+	bottom: 38px;
+}
+
+header a {
+	color: aqua;
+}
+
+.wrapper {
+	margin: 0 auto;
+	background-color: #001680;
+	width: 1200px;
+}
+
+.row {
+	margin: 0 auto;
+	background-color: #001680;
+}
+
+.box {
+	background-color: white;
+	margin: 20px;
+	border-style: solid;
+	border-color: aqua;
+	padding-left: 20px;
+	height: 250px;	
+}
+
+.box h2, .sidebox h4 {
+	font-family: 'Oswald', sans-serif;
+}
+
+.box p, .sidebox p {
+	font-family: 'Cormorant Garamond', serif;
+	font-weight: bold;
+}
+
+.box a {
+	color: black;
+	text-decoration: underline;
+}
+
+.articleinfo {
+	margin: 0px;
+	position: relative;
+	bottom: 10px;
+	right: 150px;
+}
+
+.articletext {
+	margin: 10px;
+	padding-left: 20px;
+	overflow: hidden;	
+}
+
+img {
+	margin-top: 40px;
+	float: left;
+	width: 150px;
+	height: 150px;
+}
+
+
+#side {
+	margin: 20px 20px 20px 260px;
+	border-style: solid;
+	border-color: white;
+	height: 1000px;
+}
+
+#side h3 {
+	color: white;
+	text-decoration: underline;
+}
+
+.sidebox {
+	background-color: aqua;
+	border-style: solid;
+	border-color: white;
+	height: 200px;
+	margin-bottom: 30px;
+}
+
+.sidebox a {
+	color: black;
+}
+
+.sidebox h4, h5 {
+	text-decoration: none;
+	text-align: center;
+	margin: 0px;
+}
+
+.sidebox p {
+	padding-top: 10px;
+	color: black;
+	font-weight: bold;
+}
+
+a:hover {
+	color: red;
+	text-decoration: none;
+}
+
+
